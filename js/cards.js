@@ -5,7 +5,7 @@ export default class Cards {
     const values = Object.values(json);
     const imgArray = [];
 
-    while (imgArray.length <= 12) {
+    while (imgArray.length <= 11) {
       let item = this.newItem(values);
 
       imgArray.push(item);
